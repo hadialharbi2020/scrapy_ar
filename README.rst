@@ -7,107 +7,102 @@ Scrapy
 
 .. image:: https://img.shields.io/pypi/v/Scrapy.svg
    :target: https://pypi.python.org/pypi/Scrapy
-   :alt: PyPI Version
+   :alt: إصدار PyPI
 
 .. image:: https://img.shields.io/pypi/pyversions/Scrapy.svg
    :target: https://pypi.python.org/pypi/Scrapy
-   :alt: Supported Python Versions
+   :alt: إصدارات Python المدعومة
 
 .. image:: https://github.com/scrapy/scrapy/workflows/Ubuntu/badge.svg
    :target: https://github.com/scrapy/scrapy/actions?query=workflow%3AUbuntu
-   :alt: Ubuntu
+   :alt: أوبونتو
 
 .. image:: https://github.com/scrapy/scrapy/workflows/macOS/badge.svg
    :target: https://github.com/scrapy/scrapy/actions?query=workflow%3AmacOS
-   :alt: macOS
+   :alt: ماك أو إس
 
 .. image:: https://github.com/scrapy/scrapy/workflows/Windows/badge.svg
    :target: https://github.com/scrapy/scrapy/actions?query=workflow%3AWindows
-   :alt: Windows
+   :alt: ويندوز
 
 .. image:: https://img.shields.io/badge/wheel-yes-brightgreen.svg
    :target: https://pypi.python.org/pypi/Scrapy
-   :alt: Wheel Status
+   :alt: حالة الـ Wheel
 
 .. image:: https://img.shields.io/codecov/c/github/scrapy/scrapy/master.svg
    :target: https://codecov.io/github/scrapy/scrapy?branch=master
-   :alt: Coverage report
+   :alt: تقرير التغطية
 
 .. image:: https://anaconda.org/conda-forge/scrapy/badges/version.svg
    :target: https://anaconda.org/conda-forge/scrapy
-   :alt: Conda Version
+   :alt: إصدار Conda
 
 
-Overview
+نظرة عامة
 ========
 
-Scrapy is a fast high-level web crawling and web scraping framework, used to
-crawl websites and extract structured data from their pages. It can be used for
-a wide range of purposes, from data mining to monitoring and automated testing.
+سكرابي هو إطار عمل سريع عالي المستوى لزرع واستخراج البيانات من الويب، يستخدم لزراعة المواقع واستخراج البيانات المنظمة من صفحاتها. يمكن استخدامه لمجموعة واسعة من الأغراض، من التنقيب عن البيانات إلى الترصد واختبار الأتمتة.
 
-Scrapy is maintained by Zyte_ (formerly Scrapinghub) and `many other
-contributors`_.
+يتم صيانة سكرابي من قِبل Zyte_ (السابق Scrapinghub) و`العديد من المساهمين الآخرين`_.
 
-.. _many other contributors: https://github.com/scrapy/scrapy/graphs/contributors
+.. _العديد من المساهمين الآخرين: https://github.com/scrapy/scrapy/graphs/contributors
 .. _Zyte: https://www.zyte.com/
 
-Check the Scrapy homepage at https://scrapy.org for more information,
-including a list of features.
+تحقق من صفحة سكرابي على https://scrapy.org لمزيد من المعلومات، بما في ذلك قائمة بالميزات.
 
 
-Requirements
+المتطلبات
 ============
 
 * Python 3.8+
-* Works on Linux, Windows, macOS, BSD
+* يعمل على Linux, Windows, macOS, BSD
 
-Install
+التثبيت
 =======
 
-The quick way:
+الطريقة السريعة:
 
 .. code:: bash
 
     pip install scrapy
 
-See the install section in the documentation at
-https://docs.scrapy.org/en/latest/intro/install.html for more details.
+انظر قسم التثبيت في الوثائق على
+https://docs.scrapy.org/en/latest/intro/install.html لمزيد من التفاصيل.
 
-Documentation
+الوثائق
 =============
 
-Documentation is available online at https://docs.scrapy.org/ and in the ``docs``
-directory.
+الوثائق متاحة عبر الإنترنت على https://docs.scrapy.org/ وفي دليل ``docs``.
 
-Releases
+الإصدارات
 ========
 
-You can check https://docs.scrapy.org/en/latest/news.html for the release notes.
+يمكنك مراجعة https://docs.scrapy.org/en/latest/news.html لمعرفة ملاحظات الإصدار.
 
-Community (blog, twitter, mail list, IRC)
+المجتمع (المدونة، تويتر، قائمة البريد، IRC)
 =========================================
 
-See https://scrapy.org/community/ for details.
+انظر https://scrapy.org/community/ للتفاصيل.
 
-Contributing
+المساهمة
 ============
 
-See https://docs.scrapy.org/en/master/contributing.html for details.
+انظر https://docs.scrapy.org/en/master/contributing.html للتفاصيل.
 
-Code of Conduct
+شروط السلوك
 ---------------
 
-Please note that this project is released with a Contributor `Code of Conduct <https://github.com/scrapy/scrapy/blob/master/CODE_OF_CONDUCT.md>`_.
+يرجى ملاحظة أن هذا المشروع يتم إصداره مع `شروط سلوك المساهمين <https://github.com/scrapy/scrapy/blob/master/CODE_OF_CONDUCT.md>`_.
 
-By participating in this project you agree to abide by its terms.
-Please report unacceptable behavior to opensource@zyte.com.
+من خلال المشاركة في هذا المشروع، فإنك توافق على الالتزام بشروطه.
+يرجى الإبلاغ عن السلوك غير المقبول إلى opensource@zyte.com.
 
-Companies using Scrapy
+الشركات التي تستخدم سكرابي
 ======================
 
-See https://scrapy.org/companies/ for a list.
+انظر https://scrapy.org/companies/ للحصول على قائمة.
 
-Commercial Support
+الدعم التجاري
 ==================
 
-See https://scrapy.org/support/ for details.
+انظر https://scrapy.org/support/ للتفاصيل.
